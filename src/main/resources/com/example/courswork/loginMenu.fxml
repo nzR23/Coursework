@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="700.0" spacing="20.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;">
+      <children>
+          <Button fx:id="signUpButton" layoutX="530.0" layoutY="14.0" text="Зареєструватися" />
+      
+          <Label layoutX="269.0" layoutY="84.0" text="Авторизація" textFill="#fff4f4">
+            <font>
+               <Font name="Calibri" size="24.0" />
+            </font>
+         </Label>
+         <Button fx:id="signInButton" layoutX="277.0" layoutY="230.0" prefHeight="25.0" prefWidth="107.0" text="Ввійти" />
+         <TextField fx:id="loginField" layoutX="177.0" layoutY="129.0" prefHeight="25.0" prefWidth="306.0" promptText="login" />
+         <PasswordField fx:id="passwordField" layoutX="178.0" layoutY="180.0" prefHeight="25.0" prefWidth="306.0" promptText="password" />
+      </children>
+   </AnchorPane>
+</VBox>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SearchController">
+    <children>
+        <TextField fx:id="maxSeats" layoutX="310.0" layoutY="208.0" />
+        <TextField fx:id="minSeats" layoutX="310.0" layoutY="174.0" />
+        <Text fill="WHITE" layoutX="113.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введіть мінімальну кількість місць" wrappingWidth="187.353515625" />
+        <Text fill="WHITE" layoutX="113.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ведіть максимальну кількість місць" />
+        <Button fx:id="butAccept" layoutX="304.0" layoutY="252.0" mnemonicParsing="false" text="Пітвердити" />
+        <Button fx:id="butCancel" layoutX="390.0" layoutY="252.0" mnemonicParsing="false" text="Скасувати" />
+      <Text fill="WHITE" layoutX="160.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="вагони в поїзді, що відповідають заданому діапазону параметрів кількості пасажирів." textAlignment="CENTER" wrappingWidth="380.353515625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+    </children>
+</Pane>
